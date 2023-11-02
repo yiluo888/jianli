@@ -1,0 +1,88 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    /* navbar */
+    #nav-bar .img1 {
+        display: none;
+    }
+    #nav-bar .container {
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-evenly;
+        padding-left: 25px;
+    }
+    #nav-bar .container a {
+        border: 0;
+        justify-content: start;
+    }
+    #nav-bar .container .about-navbar {
+        display: none;
+    }
+    /* about */
+    #about .container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    #about #target {
+        padding: 50px 20px 0 50px;
+        /* display: flex;
+        flex-direction: column; */
+        height: 450px;
+    }
+    #about #personal-info {
+        padding: 50px 10px 0 50px;
+        height: 450px;
+    }
+    /* job-info */
+    #job-info .container {
+        width: 310px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* certificate */
+    #certificate .container {
+        width: 310px;
+    }
+    #certificate .container .certificate-row {
+        grid-template-columns: 1fr;
+    }
+    #certificate .container .certificate-row .certificate-column {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #certificate .container .certificate-row .certificate-column img {
+        width: 280px;
+    }
+    /* project */
+    #project .container {
+        width: 310px;
+    }
+    #project .container .itam {
+        width: 310px;
+    }
+    #project .container .itam img {
+        width: 310px;
+    }
+    #project .container .project1 {
+        grid-template-columns: 1fr;
+    }
+    #project .container .itam .about {
+        flex-direction: column;
+        height: 100px;
+        align-items: start;
+        justify-content: center;
+        gap: 5px;
+    }
+    #project .container .itam .about .cv1>p {
+        display: block;
+        font-size: 14px;
+    }
+    /* footer */
+    #footer ul {
+        width: 320px;
+        justify-content: center;
+        gap: 15px;
+    }
+    #footer li a>p {
+        display: none;
+    }
+}
